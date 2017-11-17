@@ -4,6 +4,7 @@
 	<meta charset='utf-8'>
     <meta name='viewport' content='width=device-width initial-scale=1'>
     <meta name='mobile-web-app-capable' content='yes'>
+    <!--Use V.3.3.7 de Boostrap-->
     <link rel='stylesheet' href='css/bootstrap.min.css'>
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <script src='js/bootstrap.min.js'></script>
@@ -13,10 +14,10 @@
 <body id="f_musica">
 	<!--HEADER-->
 	<div class="row header-musica">
-	  <div class="col-xs-4 col-md-2 col-lg-2 text-left">
+	  <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2 text-center">
 	  	<img class='logo-img' src='images/logo_m.png'/>	
 	  </div>
-	  <div class='redes-sociales col-xs-8 col-md-10 col-lg-10 text-right'>
+	  <div class='redes-sociales col-xs-12 col-sm-8 col-md-10 col-lg-10 '>
 	    <a href="#"><img class='img-rounded img-l' src='images/fb.png'/></a>
 	    <a href="#"><img class='img-rounded img-l' src='images/ig.png'/></a>
 	    <a href="#"><img class='img-rounded img-l' src='images/tt.png'/></a>
@@ -36,8 +37,8 @@
 	    </ul>
 	</nav>
 	<!--PUBLICACIONES-->
-	<div class="container-fluid>
-		<div class="row ">
+	<div class="container-fluid">
+		<div class="row">
 			<div class="jumbotron col-sm-9 col-xs-12">
 				<!--Publicacion 1-->
 				<div class="row well">
@@ -87,21 +88,33 @@
 				</div>
 			</div>
 			<!--BUSQUEDA-->
-			<div class="jumbotron col-sm-3 col-xs-12 text-center">
+			<div class="well col-sm-3 col-xs-12 text-center">
 				<form class="form-inline" role="form">
 					<div class="input-group">
 						<span class="input-group-addon">
 							<span class="glyphicon glyphicon-search"></span>
 						</span>
-						<input type="text" name="busqueda" class="form-control">
-					</div>
-				</form>	
-			</div>
 
+						<input type="text" name="busqueda" class="form-control" placeholder="Busqueda...">
+					</div>
+				</form>
+				</br>
+				<div class="well">
+					  <ul class="list-group text-left">
+					  	<a href="#" class="list-group-item">Los Redondos</a>
+					  	<a href="#" class="list-group-item">Rock Nacional</a>
+					  	<a href="#" class="list-group-item">Musica Clasica</a>
+					  	<a href="#" class="list-group-item">Pop</a>
+					  	<a href="#" class="list-group-item">Musica Electronica</a>
+					  	<a href="#" class="list-group-item">Skrillex</a>	
+					  	<a href="#" class="list-group-item">Cristina Aguilera</a>
+					  	<a href="#" class="list-group-item">The Black Eyes Peas</a>
+					  	<a href="#" class="list-group-item">Avril Lavigne</a>
+					  	<a href="#" class="list-group-item">Despacito (Daddy Yankee)</a>
+					  </ul>
+				</div>
+			</div>
 		</div>		
 	</div>
-
-	
-	
 </body>
 </html>

@@ -26,6 +26,7 @@ body{
  .redes-sociales{
  	margin-top: 150px;
  	padding-right: 30px;
+ 	text-align: right;
 
  }
  .img-l{
@@ -36,27 +37,9 @@ body{
  .nav_musica{
  	background-color: white;
  }
- .left-inner-addon {
-    position: relative;
 }
-.left-inner-addon input {
-    padding-left: 30px;    
-}
-.left-inner-addon i {
-    position: absolute;
-    padding: 10px 12px;
-    pointer-events: none;
-}
-
-.right-inner-addon {
-    position: relative;
-}
-.right-inner-addon input {
-    padding-right: 30px;    
-}
-.right-inner-addon i {
-    position: absolute;
-    right: 0px;
-    padding: 10px 12px;
-    pointer-events: none;
+@media (max-width: 750px){
+	.redes-sociales{
+		text-align: center;
+	}
 }
