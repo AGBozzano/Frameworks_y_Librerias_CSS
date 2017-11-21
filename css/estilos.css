@@ -11,6 +11,9 @@ body{
 	background-image: url(../images/f_gastronomia.jpg);
 	color: rgb(64,50,49);
 }
+#f_gast a,p,h1,h2,h3,h4,h5{
+	color: rgb(64,50,49);
+}
 #f_musica{
 	background-image: url(../images/f_musica.jpg);
 }
